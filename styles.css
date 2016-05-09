@@ -1,6 +1,8 @@
 body {
   background: white;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-nav li {
@@ -22,5 +24,20 @@ body {
 .main-nav ul {
   list-style: none;
   display: flex;
-  flex-direction: row-reverse;
+}
+
+header {
+  background: red;
+  padding: 10px;
+}
+
+main {
+  background: yellow;
+  min-height: 40vh;
+  padding: 10px;
+}
+
+footer {
+  background: gray;
+  padding: 10px;
 }
