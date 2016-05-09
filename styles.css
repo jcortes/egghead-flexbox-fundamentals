@@ -20,5 +20,7 @@ body {
 }
 
 .main-nav ul {
-  
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
 }
