@@ -1,30 +1,26 @@
-:root {
-  height: 100%;
-}
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  min-height: 100%;
-  background: #333;
-}
-h1 {
-  font-weight: 600;
-  margin: 0 0 5px 0;
-}
-p {
-  margin: 5px 0;
-}
-article {
-  box-sizing: border-box;
-  background: #FFF;
-  margin: 5px;
-  flex: 1;
-}
-body {
+  color: yellow;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
 }
-.not-real {
-  align-self: flex-end;
+
+.title-1 {
+  background: red;
+  flex-basis: 150px;
+}
+
+.title-2 {
+  background: blue;
+  flex-basis: 150px;
+}
+
+.title-3 {
+  background: green;
+  flex-basis: 150px;
+}
+
+h1 {
+
 }
